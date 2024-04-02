@@ -11,28 +11,23 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <main>
-      <div>
-        <h2>
+    <main class="qr-component">
+      <div class="qr-component__content">
+        <img
+          class="qr-component__code"
+          src="./images/image-qr-code.png"
+          alt="QR Code"
+        />
+
+        <h2 class="qr-component__title">
           Improve your front-end skills by building projects Scan the QR code to
           visit Frontend Mentor and take your coding skills to the next level
         </h2>
-        <p>
+        <p class="qr-component__description">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
